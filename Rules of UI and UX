@@ -69,3 +69,26 @@ Serial Position Effect & Von Restorff Effect: People remember the first and last
 Miller's Law: The working memory limit is ~7±2 items. Chunk information into groups of 5-9 items max. Don't show 20 menu items at once. *Think: A phone number is chunked as (555) 123-4567.*
 
 Zeigarnik Effect: People remember unfinished tasks. Use progress trackers, to-do lists with unchecked items, or "Continue Watching" sections to encourage users to return and complete actions.
+Foundational Mindset Principles (Your Design Philosophy)
+These are overarching truths that shape your approach to problem-solving.
+
+Aesthetic-Usability Effect: A beautiful design is forgiven for minor usability issues and perceived as easier to use. Invest in visual polish—it builds trust and satisfaction.
+
+Occam's Razor: The simplest solution is usually the right one. When faced with two designs that work equally well, choose the one with fewer elements, steps, or complexity.
+
+Pareto Principle (80/20 Rule): Focus your effort on the 20% of features/design fixes that will solve 80% of the user problems. Prioritize ruthlessly.
+
+Tesler's Law (Conservation of Complexity): Complexity in a system is constant. You can't magic it away; you can only move it from the user to the system (through smart automation) or the designer (through clever design). The user's burden should always be minimized.
+
+In short, knowing these concepts makes you a good designer because they:
+
+Move you from opinion to reason. You can justify why a button should be bigger or a list shorter.
+
+Help you predict user behavior. You can design with an understanding of how people will naturally perceive and interact with your work.
+
+Provide a shared language. You can communicate effectively with team members and stakeholders using proven principles, not just taste.
+
+Make your designs more intuitive and humane. You're designing for the human brain, not just for the screen.
+
+It’s the difference between decorating and engineering the user experience.
+

@@ -60,3 +60,12 @@ Jakob's Law: Users bring expectations from other sites. Follow established conve
 Doherty Threshold & Parkinson's Law: Provide instant feedback (<400ms) for actions (like button clicks) to keep users engaged and productive. Also, set sensible constraints (e.g., character limits, progress indicators) to prevent tasks from ballooning. Think: A loading animation tells the user the system is working.
 
 Postel's Law (Robustness Principle): Be forgiving with inputs. Accept different date formats, autocorrect minor typos, and show clear, helpful error messages when something goes wrong. Make your system resilient.
+
+The Psychology of Memory & Attention (What Users Remember)
+These effects predict what will stick in the user's mind.
+
+Serial Position Effect & Von Restorff Effect: People remember the first and last items best, and anything that stands out. Place key actions at the beginning or end of lists, and use visual contrast (color, size) for the most important option. Think: A prominent "Premium" plan in a pricing table.
+
+Miller's Law: The working memory limit is ~7±2 items. Chunk information into groups of 5-9 items max. Don't show 20 menu items at once. *Think: A phone number is chunked as (555) 123-4567.*
+
+Zeigarnik Effect: People remember unfinished tasks. Use progress trackers, to-do lists with unchecked items, or "Continue Watching" sections to encourage users to return and complete actions.

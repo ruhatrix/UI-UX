@@ -49,3 +49,14 @@ Law of Similarity: Make elements that behave the same look the same (color, shap
 Law of Prägnanz (Simplicity): Your brain craves the simplest interpretation. Use clear, recognizable icons and shapes. Avoid unnecessary visual complexity. Think: A "hamburger" menu icon (≡) is not inherently simple, but it's become a recognizable pattern.
 
 Fitts' Law: The bigger and closer a target is, the faster and easier it is to hit. Make clickable buttons large and place key actions near the user's natural resting point (e.g., a "Submit" button near the form fields). Think: Giant "Add to Cart" buttons on mobile.
+
+The Psychology of Decision & Interaction (How Users Choose & Act)
+These principles guide how you present choices and manage user effort.
+
+Hick's Law: More choices = more time to decide. Break complex tasks into simple steps, limit menu items, and use good defaults. Don't overwhelm. Think: A wizard (step-by-step form) instead of one massive page.
+
+Jakob's Law: Users bring expectations from other sites. Follow established conventions (shopping cart icon, magnifying glass for search). Don't reinvent the wheel unless you have a radically better solution.
+
+Doherty Threshold & Parkinson's Law: Provide instant feedback (<400ms) for actions (like button clicks) to keep users engaged and productive. Also, set sensible constraints (e.g., character limits, progress indicators) to prevent tasks from ballooning. Think: A loading animation tells the user the system is working.
+
+Postel's Law (Robustness Principle): Be forgiving with inputs. Accept different date formats, autocorrect minor typos, and show clear, helpful error messages when something goes wrong. Make your system resilient.

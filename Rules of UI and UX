@@ -37,3 +37,15 @@
 19. Zeigarnik effect
    💠people remember uncompleted or interrupted tasks better than completed tasks.
 describing and knowing this concepts really make you a good designer
+
+
+The Psychology of Perception (How Users See)
+These laws explain how the human brain automatically organizes visual information.
+
+Law of Proximity & Common Region: Put related things closer together or inside the same container (a card, a shaded box). Your brain instantly sees them as a group, reducing clutter. Think: Form fields grouped in a box.
+
+Law of Similarity: Make elements that behave the same look the same (color, shape, size). Users will instantly understand their function. Think: All blue, underlined text = clickable links.
+
+Law of Prägnanz (Simplicity): Your brain craves the simplest interpretation. Use clear, recognizable icons and shapes. Avoid unnecessary visual complexity. Think: A "hamburger" menu icon (≡) is not inherently simple, but it's become a recognizable pattern.
+
+Fitts' Law: The bigger and closer a target is, the faster and easier it is to hit. Make clickable buttons large and place key actions near the user's natural resting point (e.g., a "Submit" button near the form fields). Think: Giant "Add to Cart" buttons on mobile.

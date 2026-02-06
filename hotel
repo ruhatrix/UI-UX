@@ -1,0 +1,198 @@
+1. Frontend (User Interface)
+
+The frontend is for guests, staff, and admins to interact with the system.
+
+Core Features
+
+Guest Portal
+
+View available rooms
+
+Search & filter rooms by type, price, amenities
+
+Make reservations
+
+View booking history
+
+Payment for bookings
+
+Staff Portal
+
+Check-in / Check-out guests
+
+Manage room availability and cleaning status
+
+Manage guest requests
+
+Admin Panel
+
+Add/edit/delete rooms
+
+View reservations and revenue reports
+
+Manage staff accounts
+
+Notifications
+
+Email/SMS for booking confirmations and reminders
+
+Tech Stack
+
+React.js / Next.js / Angular
+
+Tailwind CSS / Bootstrap / Material UI
+
+State management: Redux / Context API
+
+HTTP requests: Axios / Fetch API
+
+Routing: React Router / Next.js routing
+
+2. Backend (Server Side / API)
+
+Backend manages booking logic, payments, user management, and reporting.
+
+Core Features
+
+User Management
+
+Guest and staff accounts
+
+Authentication (JWT)
+
+Room Management
+
+CRUD operations for rooms
+
+Track availability, status (cleaning, occupied, vacant)
+
+Booking Management
+
+Reservation creation, modification, cancellation
+
+Check-in / Check-out updates
+
+Payment Processing
+
+Integrate Stripe / PayPal
+
+Record payment status
+
+Reporting
+
+Revenue, occupancy rate, guest activity
+
+Notifications
+
+Send booking confirmation / reminders
+
+Security
+
+Role-based access: guest, staff, admin
+
+Input validation
+
+Tech Stack
+
+Node.js + Express (or Django/Flask)
+
+REST API or GraphQL
+
+Authentication: JWT
+
+File uploads: Multer (for room images)
+
+3. Database Layer
+
+Database stores rooms, bookings, users, payments, and logs.
+
+Essential Tables/Collections
+
+Users
+
+Name, email, password, role (guest/staff/admin), contact info
+
+Rooms
+
+Number, type, price, status (vacant/occupied), amenities, images
+
+Bookings
+
+User ID, room ID, check-in/out dates, status, total price
+
+Payments
+
+Booking ID, payment method, amount, status
+
+Staff Tasks / Logs
+
+Room cleaning, maintenance requests
+
+Reviews / Feedback
+
+Guest reviews for rooms or services
+
+Tech Stack
+
+SQL: MySQL, PostgreSQL
+
+NoSQL: MongoDB
+
+Optional caching: Redis (for sessions, availability checks)
+
+4. Additional Requirements
+
+Environment & Config
+
+.env file for API keys, DB connections, secret keys
+
+Deployment
+
+Frontend: Vercel, Netlify
+
+Backend: Heroku, AWS, Render
+
+Database: MongoDB Atlas / RDS / PostgreSQL
+
+Security
+
+HTTPS/SSL
+
+Role-based access control
+
+Input validation and sanitization
+
+Testing
+
+Unit tests, integration tests (Jest, Mocha)
+
+Third-Party Services
+
+Payment gateways (Stripe, PayPal)
+
+Cloud storage for room images (AWS S3 / Cloudinary)
+
+Flow Diagram (Text Version)
+[Guest / Staff / Admin Browser or Mobile App]
+                  |
+                  v
+           [Frontend (React/Next.js)]
+                  |
+           HTTP Requests / REST API
+                  |
+                  v
+             [Backend (Node.js/Express)]
+                  |
+   ----------------------------------------
+   |           |           |              |
+   v           v           v              v
+[Auth]     [Rooms]    [Bookings]    [Payments]
+                  |
+                  v
+              [Database]
+                  |
+                  v
+         [Third-Party Services]
+  (Payment gateway, Cloud Storage)
+
+

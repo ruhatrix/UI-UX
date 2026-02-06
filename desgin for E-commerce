@@ -1,1 +1,147 @@
+Full-Stack E-Commerce Architecture
+1. Frontend (Client Side)
+
+Browser / Mobile App
+
+React.js / Next.js (UI Framework)
+
+Pages:
+
+Home / Product Listing
+
+Product Detail
+
+Cart / Checkout
+
+User Authentication
+
+Order History
+
+Admin Panel (optional)
+
+Communicates with Backend API via HTTP (REST or GraphQL)
+
+Handles state (cart, user session, filters)
+
+Shows notifications & validation (like “added to cart”)
+
+2. Backend (Server Side / API)
+
+Node.js + Express (or any backend framework)
+
+Responsibilities:
+
+Authentication
+
+Login, Signup
+
+JWT token validation
+
+Product Management
+
+CRUD operations for products
+
+Manage stock and images
+
+Cart & Orders
+
+Add/remove items
+
+Checkout
+
+Track order status
+
+Payment
+
+Integrate Stripe/PayPal
+
+Confirm payment success/failure
+
+Admin Dashboard
+
+Manage products, users, orders
+
+Security
+
+Input validation
+
+Authorization checks
+
+Routes Example
+
+/api/products        GET, POST, PUT, DELETE
+/api/users           GET, POST, PUT, DELETE
+/api/cart            GET, POST, DELETE
+/api/orders          GET, POST
+/api/auth/login      POST
+/api/auth/register   POST
+
+3. Database Layer
+
+Stores all data
+
+Users: name, email, password, role
+
+Products: title, description, price, stock, images
+
+Orders: userId, productId, quantity, status, payment info
+
+Cart: userId, productId, quantity
+
+Categories: product categories
+
+Reviews: userId, productId, rating, comment
+
+Database Choices
+
+SQL: MySQL, PostgreSQL
+
+NoSQL: MongoDB (often used with Node.js)
+
+Optional caching: Redis
+
+4. Deployment Layer
+
+Frontend: Vercel / Netlify
+
+Backend: Heroku / Render / AWS EC2
+
+Database: MongoDB Atlas / AWS RDS
+
+Storage: S3 / Cloudinary for product images
+
+5. Flow Diagram (Text Version)
+[User Browser / Mobile App]
+           |
+           v
+    [Frontend (React/Next.js)]
+           |
+   HTTP Requests / REST API
+           |
+           v
+      [Backend (Node.js/Express)]
+           |
+   -----------------------------
+   |           |               |
+   v           v               v
+[Auth]     [Products]      [Orders/Cart]
+           |
+           v
+      [Database (MongoDB/MySQL)]
+
+
+Optional Admin Panel Flow
+
+[Admin Browser]
+       |
+       v
+  [Frontend Admin Dashboard]
+       |
+       v
+   [Backend APIs]
+       |
+       v
+    [Database]
+
+
 

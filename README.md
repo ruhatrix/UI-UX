@@ -1,7 +1,6 @@
 # UI/UX Design Portfolio 🎨
 
 A collection of UI/UX design projects focused on creating clean, user-friendly, and visually appealing digital experiences.  
-This repository showcases my design process, concepts, and problem-solving approach.
 
 ## 📌 What’s Inside
 - UI design concepts

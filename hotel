@@ -38,9 +38,9 @@ Email/SMS for booking confirmations and reminders
 
 Tech Stack
 
-React.js / Next.js / Angular
+React.js / Next.js 
 
-Tailwind CSS / Bootstrap / Material UI
+Tailwind CSS / Material UI
 
 State management: Redux / Context API
 

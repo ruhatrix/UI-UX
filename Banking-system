@@ -1,0 +1,8 @@
+📌 System Philosophy & Core Constraints
+A banking system is not a standard CRUD app. It has three non-negotiable requirements:
+
+Financial Data Integrity: You cannot lose or miscalculate a transaction.
+
+Regulatory Readiness: Audit logs, idempotency, and data immutability.
+
+Third-Party Liability: You are handling real money via Plaid/Dwolla/Paystack; security is contractual.

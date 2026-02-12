@@ -1,1 +1,67 @@
+👤 User & Auth Module
+
+Admin
+
+Doctor
+
+Nurse
+
+Receptionist
+
+Patient
+
+Lab Technician
+
+🏥 Patient Management Module
+
+Register patient
+
+Patient history
+
+Medical records
+
+Admission & discharge
+
+👨‍⚕ Doctor Module
+
+View appointments
+
+Add diagnosis
+
+Prescribe medication
+
+Upload medical notes
+
+📅 Appointment Module
+
+Book appointment
+
+Cancel appointment
+
+Doctor availability schedule
+
+💊 Pharmacy Module
+
+Add medicines
+
+Prescription processing
+
+Medicine stock tracking
+
+🧪 Laboratory Module
+
+Add lab test
+
+Upload test results
+
+Assign technician
+
+💰 Billing Module
+
+Generate invoice
+
+Payment tracking
+
+Insurance processing
+
 

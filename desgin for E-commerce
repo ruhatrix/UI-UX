@@ -25,7 +25,7 @@ Handles state (cart, user session, filters)
 
 Shows notifications & validation (like “added to cart”)
 
-2. Backend (Server Side / API)
+2. Backend 
 
 Node.js + Express (or any backend framework)
 

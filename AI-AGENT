@@ -23,9 +23,9 @@ State management: Redux / Zustand / Context API
 
 HTTP requests: Axios / Fetch
 
-Optional: WebSockets (for real-time chat)
 
-2. Backend (Server & AI Integration)
+
+2. Backend 
 
 The backend handles requests, communicates with the AI model, and manages data.
 

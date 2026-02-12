@@ -48,7 +48,7 @@ HTTP requests: Axios / Fetch API
 
 Routing: React Router / Next.js routing
 
-2. Backend (Server Side / API)
+2. Backend 
 
 Backend manages booking logic, payments, user management, and reporting.
 

@@ -17,7 +17,7 @@ User Authentication
 
 Order History
 
-Admin Panel (optional)
+Admin Panel 
 
 Communicates with Backend API via HTTP (REST or GraphQL)
 

@@ -1,7 +1,7 @@
 Creating a Telegram bot with Python
-Step 1: Create a Bot on Telegram and Get Your Token
-Step 2: Set Up Your Python Environment
-        pip install python-telegram-bot --upgrade
-Step 3: Write the Bot Code
-Step 4: Run Your Bot
+🔑 STEP 1: Create a Bot on Telegram (Token)
+Open Telegram
+Search for BotFather
+Start the chat and type: /start   /newbot
+Give your bot , name , username
 

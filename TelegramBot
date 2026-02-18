@@ -8,6 +8,9 @@ Give your bot , name , username
 pip install python-telegram-bot
 🧪 STEP 3: Write Your First Bot Code
 bot.py
+▶️ STEP 4: Run the Bot
+python bot.py
+💬 STEP 5: Test Your Bot
 
 
 

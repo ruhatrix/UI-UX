@@ -4,4 +4,11 @@ Open Telegram
 Search for BotFather
 Start the chat and type: /start   /newbot
 Give your bot , name , username
+📦 STEP 2: Install Required Python Library
+pip install python-telegram-bot
+🧪 STEP 3: Write Your First Bot Code
+bot.py
+
+
+
 

@@ -62,3 +62,21 @@ Dark mode
 Multi-currency support
 
 Budget limits & alerts
+4️⃣ Tech Stack (Recommended)
+Frontend
+
+React (with Next.js)
+
+Tailwind CSS
+
+Axios
+
+Chart.js or Recharts
+
+Backend
+
+Node.js
+
+Express.js
+
+JWT Authentication

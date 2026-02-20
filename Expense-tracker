@@ -11,3 +11,20 @@ View monthly/yearly summaries
 See charts and analytics
 
 Securely store personal financial data
+
+2️⃣ Core Features (MVP – Must Have)
+🔐 Authentication
+
+User signup & login
+
+JWT-based authentication
+
+Password hashing
+
+💰 Expense Management
+
+Add expense (amount, category, date, note)
+
+Edit & delete expense
+
+Add income

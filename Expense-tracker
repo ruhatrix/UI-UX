@@ -117,4 +117,13 @@ Expense Model
   date,
   createdAt
 }
+7️⃣ Backend Folder Structure
+backend/
+ ├── controllers/
+ ├── routes/
+ ├── models/
+ ├── middleware/
+ ├── config/
+ ├── server.js
+ └── .env
 

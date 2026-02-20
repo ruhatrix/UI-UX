@@ -97,3 +97,12 @@ Frontend (Next.js)
 Backend (Express.js)
    ↓
 Database (MongoDB)
+6️⃣ Database Design (Very Important)
+User Model
+{
+  _id,
+  name,
+  email,
+  password,
+  createdAt
+}

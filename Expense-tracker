@@ -106,3 +106,15 @@ User Model
   password,
   createdAt
 }
+Expense Model
+{
+  _id,
+  userId,
+  type: "income" | "expense",
+  category,
+  amount,
+  note,
+  date,
+  createdAt
+}
+

@@ -80,3 +80,14 @@ Node.js
 Express.js
 
 JWT Authentication
+Database
+
+MongoDB (Mongoose)
+
+Deployment
+
+Frontend: Vercel / Netlify
+
+Backend: Render / Railway
+
+Database: MongoDB Atlas

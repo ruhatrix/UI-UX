@@ -91,7 +91,7 @@ NoSQL: MongoDB (flexible chat logs)
 
 SQL: PostgreSQL / MySQL (structured user data)
 
-Optional caching: Redis (for session or real-time chat)
+Optional caching: Redis 
 
 4. Optional Services
 

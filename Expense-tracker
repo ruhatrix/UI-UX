@@ -91,7 +91,7 @@ Frontend: Vercel / Netlify
 Backend: Render / Railway
 
 Database: MongoDB Atlas
-5️⃣ Full-Stack Architecture (Simple)
+5️⃣ Full-Stack Architecture 
 Frontend (Next.js)
    ↓ API Requests (Axios)
 Backend (Express.js)

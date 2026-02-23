@@ -1,3 +1,5 @@
+Full-stack banking system
+
 System Philosophy & Core Constraints
 A banking system is not a standard CRUD app. It has three non-negotiable requirements:
 

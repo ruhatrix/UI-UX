@@ -11,3 +11,4 @@ Regulatory Readiness: Audit logs, idempotency, and data immutability.
 Technologies
 Front-end  Next.js
 Backend express
+Database MongoDB

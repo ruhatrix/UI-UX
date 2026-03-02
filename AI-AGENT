@@ -25,7 +25,7 @@ HTTP requests: Axios / Fetch
 
 
 
-2. Backend 
+2. Back-end 
 
 The backend handles requests, communicates with the AI model, and manages data.
 

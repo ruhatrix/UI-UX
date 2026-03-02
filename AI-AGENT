@@ -71,7 +71,7 @@ REST API or WebSocket API
 
 JWT / OAuth authentication
 
-3. Database Layer
+3. Database 
 
 Database stores users, AI conversation history, and optional analytics.
 
